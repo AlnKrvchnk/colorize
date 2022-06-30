@@ -3,6 +3,10 @@
   "name": "colorize_ui",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
+  "engines": {
+    "node": "14.x"
+  },
   
   "scripts": {
     "serve": "vue-cli-service serve",
