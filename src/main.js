@@ -23,8 +23,8 @@ app.use(store)
 app.use(router)
 
 // app.config.globalProperties.$api = api;
-let port=process.env.PORT || 8080
-app.listen(port)
+// let port=process.env.PORT || 8080
+// app.listen(port)
 //app.use(ApiPlugin);
 app.mount("#app");
 
