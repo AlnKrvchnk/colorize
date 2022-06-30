@@ -1,0 +1,28 @@
+@import 'fonts.scss';
+@import 'variables.scss';
+@import 'text_elements.scss';
+
+.background{
+    &-white{
+       background-color:$white;
+    }
+    &-main{
+      background-color:$main;
+      &__light{
+         background-color:$main__light;
+      }
+      &__dark{
+         background-color:$main__dark;
+      }
+      &__dark2{
+         background-color:$main__dark2;
+      }
+    } 
+ }
+ body::-webkit-scrollbar {
+   width: 0!important;
+ }
+
+
+
+

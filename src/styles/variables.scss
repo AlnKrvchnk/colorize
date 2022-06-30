@@ -1,0 +1,30 @@
+        
+        @use "sass:math";
+        $case:random(7);
+      
+        /*Path*/
+
+    $icon:'../assets/icon/';
+    $image:'../assets/images/';
+
+
+        /*Colors*/
+
+    $white:#ffffff;
+    // $main:#ff6161;
+    // $main__light:#ffb2b2;
+    // $main__dark:#ff4848;
+    // $main__dark2:#c23939;
+    $main:#6761FF;
+    $main__light:#B2BAFF;
+    $main__dark:#5948FF;
+    $main__dark2:#3E39C2;
+
+
+        /*Size*/
+
+    $sm:576px;
+    $md:768px;
+    $lg:992px;
+
+
