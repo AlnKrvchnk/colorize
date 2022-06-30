@@ -32,12 +32,12 @@
                 <div class="left m-auto w-auto left col-12 col-md-6 ">
                     <div class="main__title   position-relative mb-5">
                         <h1 class="text-title__main  adaptive-sm text-center text-white animate-title cursor-default">Цветик</h1>
-                        <h2 class="text text-fs__14  text-white    cursor-default position-absolute"
+                        <h2 class="text text-fs__14  text-white    cursor-default position-absolute d-none d-sm-block"
                             style="transform: translate(170%, -680%);"> Привет, я</h2>
-                        <h3 class="text-comment text-fs__12 text-light text-white  cursor-default position-absolute"
+                        <h3 class="text-comment text-fs__12 text-light text-white  cursor-default position-absolute d-none d-sm-block"
                             style="transform: translate(43%, -325%);">твой помощник в колоризации фотографий</h3>
                     </div>
-                    <div class="buttons  d-flex justify-content-between">
+                    <div class="buttons  d-flex flex-column flex-sm-row justify-content-between">
                         <router-link :to="{name:'example' }">
                             <v-button
                             :title="'Посмотреть примеры'"
@@ -88,6 +88,7 @@ export default{
 
 <style scoped lang="scss"> 
 @import '../styles/variables.scss';
+@media (min-width:$md) {
 .fade-enter-active {
 
     .main__title{
@@ -139,7 +140,7 @@ export default{
         }
     }
 }
-
+}
 
 
 .background{

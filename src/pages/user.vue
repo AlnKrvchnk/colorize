@@ -218,7 +218,7 @@ export default{
     top: 0;
     right:0;
 }
-
+@media (min-width:$md) {
 .fade-leave-active {
     .background{
         z-index: 10;
@@ -236,7 +236,7 @@ export default{
             animation-delay: 1s;
         }
     }
-}
+}}
 @keyframes rectangle{
     from{
         width: 100wv;

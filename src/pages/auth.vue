@@ -39,7 +39,7 @@
                     </div>
 
                 </div>
-                <span class="col-1"></span>
+                <span class="col-1 d-none d-md-block"></span>
                 <div class=" right  col-12 col-md-6 ">
                     <v-signUp class="sign-form" ref="signUp" @signIn="sign_in" @load="load()"  @loaded="loaded()"/>
                     <v-signIn class="sign-form" ref="signIn" @signUp="sign_up" @load="load()"  @loaded="loaded()"/>
@@ -137,6 +137,7 @@ export default{
         }
     }
 }
+@media (min-width:$md) {
 .fade-leave-active {
     .background{
         
@@ -158,6 +159,7 @@ export default{
 
 
 }
+
 .fade-enter-active {
     .background{
         .rectangle{
@@ -174,7 +176,7 @@ export default{
             animation-delay: 1s;
     }
 }
-
+}
 @keyframes sign-form{
     from{
        opacity: 0;

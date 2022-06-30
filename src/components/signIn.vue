@@ -1,6 +1,6 @@
 <template>
-    <form class="wrapper col-8 my-4 mx-auto d-flex flex-column " @submit.prevent="checkForm" v-if="show">
-        <h1 class="title text-white text-ls__2 text-title__main text-fs__36 text-medium mb-5 ps-md-3">Авторизация</h1>
+    <form class="wrapper col-md-8 my-4 mx-sm-auto d-flex flex-column " @submit.prevent="checkForm" v-if="show">
+        <h1 class="title text-white text-center text-ls__2 text-title__main text-fs__36 text-medium mb-5 ps-md-3">Авторизация</h1>
        <div class="position-relative me-3 mb-2">
            <span v-if="error" class="ms-3 w-100 text-comment text-fs__12  text-white position-absolute">Пароль или логин неверный!</span>
        <span v-if="v$.form.username.$dirty && v$.form.username.required.$invalid" class="text-end w-100 text-comment text-fs__12  text-white position-absolute">Обязательное поле!</span>  

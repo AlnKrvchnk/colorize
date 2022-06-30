@@ -93,6 +93,10 @@ z-index:1;
         font-weight: 400;
         font-size: 16px;
         letter-spacing: 0.1em;
+        @media (max-width:$sm) {
+            width:100%;
+            margin: 4px 0
+        }
     }
     &-small{
         height: 24px;
@@ -102,6 +106,9 @@ z-index:1;
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
+        @media (max-width:$sm) {
+           padding: 0 8px;
+        }
 
     }
     

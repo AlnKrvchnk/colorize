@@ -23,7 +23,9 @@
             font-weight: 700;
             font-size: 96px;
             line-height: 152px;
-            
+            @media (max-width:$sm) {
+                font-size: 80px;
+            }
         }
     }
 &-light{

@@ -238,6 +238,7 @@ return{
 .description{
     z-index: 1;
 }
+@media (min-width:$md) {
 .fade-leave-active {
     .background{
         .rectangle{
@@ -264,7 +265,7 @@ return{
     }
     
 }
-
+}
 
 @keyframes rectangle{
     from{
