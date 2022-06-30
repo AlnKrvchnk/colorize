@@ -4,12 +4,10 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-<<<<<<< HEAD
   "engines": {
-    "node": "14.x"
+    "node": "14.x",
+    "npm": "6.x"
   },
-=======
->>>>>>> bc06a805f198d31a15d96e8e98cd5e65595cbc58
   
   "scripts": {
     "serve": "vue-cli-service serve",
