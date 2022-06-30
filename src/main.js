@@ -1,14 +1,13 @@
-import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/css/bootstrap.css' 
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
-import vButton from '@/components/v-button.vue';
-import vInput from '@/components/v-input.vue';
-
+import vButton from './components/v-button.vue';
+import vInput from './components/v-input.vue';
 
 import { createApp } from 'vue'
 import App from './App.vue'
-import router from './router'
-import store from './store'
+import router from './router/index.js'
+import store from './store/index.js'
 //import ApiPlugin from './plugins/api'
 // import api from './api/index'
 
